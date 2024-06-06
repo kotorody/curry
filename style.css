@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body {
+  background-color: #fff;
+}
+.ingredients {
+  list-style-type: none;
+  list-style-image: url(./images/list-marker.png);
+}
+
+.ingredients > li {
+  margin-top: 4px;
+  padding-left: 4px;
+  vertical-align: middle;
+}
+.steps {
+  list-style-type: decimal-leading-zero;
+}
+/* .ingredients li
+        ingredientsの中にあるすべてのliタグ */
+/* .ingredients > li
+        ingredientsの中にある最初の子要素のみのliタグ */
